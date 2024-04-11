@@ -1,0 +1,25 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 5px #b049ff solid;
+    backdrop-filter: blur(15px);
+    border-radius: 10px;
+    width: 350px;
+    height: 550px;
+}
+
+li {
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container{
+    color: white;
+}
+
+.spisok {
+    overflow: auto;
+    height: 340px;
+}
